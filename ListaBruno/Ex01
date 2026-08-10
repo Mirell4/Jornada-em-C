@@ -1,0 +1,16 @@
+#include <stdio.h>
+//leitura e escrita ex01
+    
+int main(){
+    
+    int a;
+    double b;
+    
+    printf("Escreva um numero inteiro ");
+    scanf("%d", &a);
+    printf("\nEscreva um numero real");
+    scanf("%lf", &b);
+    
+    printf("%d eh inteiro e %2.lf eh real", a, b);
+    
+}
