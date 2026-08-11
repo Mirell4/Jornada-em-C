@@ -1,0 +1,22 @@
+#include<stdio.h>
+//2. Operações aritméticas
+
+int main(){
+	
+	int a, b;
+	
+	printf("Insira dois numeros inteiros ");
+	scanf("%d" "%d", &a, &b);
+	
+	printf("A soma eh %d\n", a + b);
+	printf("A subtracao eh %d\n", a - b);
+	printf("A multiplicacao eh %d\n", a * b);
+	
+	if(b!=0){
+		printf("A divisao eh %d\n", a / b);
+		printf("O resto da divisao eh %.2f", a % b);
+	} else {
+		printf("Erro");
+	}
+	
+}
