@@ -1,0 +1,13 @@
+#include<stdio.h>
+//5. Conversação de velocidade
+
+int main(){
+	
+	double veloci;
+	
+	printf("Insira uma velocidade em Km/H ");
+	scanf("%lf", &veloci);
+	
+	printf("A sua velocidade em Km/H para m/s eh: %.2f", veloci/3.6);
+	
+}
