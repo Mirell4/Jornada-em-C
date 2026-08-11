@@ -1,0 +1,14 @@
+#include<stdio.h>
+//3. Circunferência
+
+int main(){
+	
+	double raio;
+	
+	printf("Insira o raio da sua circunferencia ");
+	scanf("%lf", &raio);
+	
+	printf("O perimetro da circunferencia eh: %.2f\n", 2 * 3.14 * raio );
+	printf("A area da circunferencia eh: %.2f", 3.14 * (raio * raio) );
+	
+}
