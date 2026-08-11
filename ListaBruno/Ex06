@@ -1,0 +1,15 @@
+#include<stdio.h>
+//6. Parte inteira e parte fracionaria
+
+int main(){
+	
+	double num;
+	
+	printf("Insira um numero real\n");
+	scanf("%lf", &num);
+	
+	printf("A parte inteira desse numero eh: %d\n", (int)num);
+	printf("A parte fracionaria desse numero eh: %.2f", num - (int)num);
+	
+	
+}
