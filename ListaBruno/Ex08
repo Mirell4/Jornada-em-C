@@ -1,0 +1,20 @@
+//8. sizeof
+
+#include <stdio.h>
+
+int main()
+{
+   
+   printf("Tamanho em bytes do char %zu\n", sizeof(char));
+   printf("Tamanho em bytes do short %zu\n", sizeof(short));
+   printf("Tamanho em bytes do int %zu\n", sizeof(int));
+   printf("Tamanho em bytes do long %zu\n", sizeof(long));
+   printf("Tamanho em bytes do float %zu\n", sizeof(float));
+   printf("Tamanho em bytes do double %zu\n", sizeof(double));
+   printf("Tamanho em bytes do ponteiro para int %zu\n", sizeof(int *));
+   printf("Tamanho em bytes do ponteiro para double %zu\n", sizeof(double *));
+   
+   
+   
+   
+}
