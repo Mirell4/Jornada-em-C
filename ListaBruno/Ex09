@@ -1,0 +1,29 @@
+//9. Sinal e paridade
+
+#include<stdio.h>
+int main(){
+	
+	int num;
+
+	printf("Insira um numero");
+	scanf("%d", &num);
+	
+	if(num>=0){
+		
+		printf("O numero inserido e positivo\n");
+		
+	}else{
+		
+		printf("O numero inserido e negativo");
+		
+	} if(num %2 == 0){
+		
+		printf("O numero eh par");
+		
+	} else{
+		
+		printf("o numero eh impar");
+		
+	}
+
+}
