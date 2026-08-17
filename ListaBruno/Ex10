@@ -1,0 +1,34 @@
+//10. Ordem crescente
+
+#include <stdio.h>
+
+int main(){
+    
+    int vet[3];
+    int temp;
+    
+    for(int i=0; i<3; i++){
+        printf("Insira um numero ");
+        scanf("%d", &vet[i]);
+    }
+    
+     for(int i=0; i<3; i++){
+         
+          for(int j= i + 1; j<3; j++){
+              
+              if(vet[i] > vet[j]){
+                  temp = vet[i];
+                  vet[i] = vet[j];
+                  vet[j] = temp;
+              }
+              
+              
+          }
+     }
+     
+    printf("Ordem crescente:\n");
+     for(int i=0; i<3; i++){
+        printf("%d ", vet[i]);
+    }
+     
+}
