@@ -1,0 +1,22 @@
+//12. Emprestimo
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(){
+   
+   double salario, emprestimo;
+   
+   printf("Insira seu salario: ");
+   scanf("%lf", &salario);
+   
+   printf("Insira o valor do emprestimo que deseja: ");
+   scanf("%lf", &emprestimo);
+   
+   if(emprestimo > salario*1.20){
+      printf("Emprestimo negado, pois ultrapassa 20 po cento do seu salario");
+   } else{
+      printf("Emprestimo aprovado!");
+   }
+   
+}
