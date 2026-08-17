@@ -1,0 +1,39 @@
+//15. Menu com switch
+
+#include <stdio.h>
+
+
+int main(){
+   
+   double a, b;
+   int operacao;
+   
+   printf("Escolha uma operacao: 1 - Soma / 2 - Subtração / 3 - Multiplicação /4 - Divisão ");
+   scanf("%d", &operacao);
+   
+   printf("Insira dois numeros: ");
+   scanf("%lf %lf", &a, &b);
+   
+   switch(operacao){
+       
+       case 1:
+       printf("Soma: a + b = %.2f", a + b);
+       break;
+       
+       case 2:
+       printf("Subtracao: a - b = %.2f", a - b);
+       break;
+       
+       case 3:
+       printf("Multiplicação: a * b = %.2f", a * b);
+       break;
+       
+       case 4:
+       printf("Divisao: a / b = %.2f", a / b);
+       break;
+       
+   }
+   
+   
+   
+}
