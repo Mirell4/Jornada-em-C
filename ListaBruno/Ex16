@@ -1,0 +1,28 @@
+//16. Divisibilidade exclusiva
+
+#include <stdio.h>
+
+
+int main(){
+   
+   int a;
+   
+   printf("Insira um numero: ");
+   scanf("%d", &a);
+   
+   if(a % 3 == 0 && a % 5 != 0){
+       
+       printf("Divisivel por 3, mas nao pelo 5");
+       
+   } else if (a % 5 == 0 && a % 3 != 0){
+       
+       printf("Divisivel por 5, mas nao pelo 3");
+       
+   } else {
+       
+       printf("O numero nao atende a condicao");
+   }
+   
+   
+   
+}
