@@ -1,0 +1,15 @@
+//11. Maior e diferença
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(){
+   
+   int a, b;
+   
+   printf("Insira dois numeros ");
+   scanf("%d %d", &a, &b);
+   
+   printf("A diferença absoluta entre os numeros eh %d ", abs(a - b));
+     
+}
